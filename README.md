@@ -7,8 +7,6 @@ Server-side functionalities for Ágora Mobile
 2. Run 'gem install bundler'
 3. Run 'export PATH=$PATH:~/.gem/ruby/2.3.0/bin'
 4. Run 'bundle install'
-    1. If you get building error for puma native extensions, run 'DISABLE_SSL=true gem install puma -v 3.6.2'
-    2. Run 'bundle install' again
 5. Setup your postgres database and user (e.g. agora database with agora user - agora password)
 6. Run 'export DATABASE_URL="postgres://agora:agora@localhost/agora"'
 7. Run 'rake db:migrate'
